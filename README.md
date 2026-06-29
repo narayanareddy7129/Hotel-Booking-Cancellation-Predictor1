@@ -2,9 +2,9 @@
 
 > A full end-to-end Machine Learning project that predicts whether a hotel booking will be cancelled — built using a structured **4-Sprint Agile methodology** reflecting real-world industry workflows.
 
----
 
-## 📌 Problem Statement
+
+## Problem Statement
 
 Hotel cancellations are a major revenue problem. A hotel that can predict which bookings are likely to be cancelled can take proactive steps — targeted outreach, overbooking strategies, dynamic pricing — to minimize losses.
 
@@ -12,7 +12,7 @@ This project builds a production-ready ML system that takes a raw booking record
 
 ---
 
-## 🎯 Key Results
+## Key Results
 
 | Metric | Score |
 |--------|-------|
@@ -23,7 +23,7 @@ This project builds a production-ready ML system that takes a raw booking record
 
 ---
 
-## 🗂️ Project Structure
+## Project Structure
 
 ```
 Hotel-Booking-Cancellation-Prediction/
@@ -62,7 +62,7 @@ Hotel-Booking-Cancellation-Prediction/
 
 ---
 
-## 🚀 4-Sprint Methodology
+## 4-Sprint Methodology
 
 ### Sprint 1 — Data Understanding & Preprocessing
 - Loaded and inspected the **Hotel Booking Demand** dataset (119,000+ bookings, 32 features)
@@ -101,7 +101,7 @@ Hotel-Booking-Cancellation-Prediction/
 
 ---
 
-## 🔧 Installation & Setup
+## Installation & Setup
 
 ### 1. Clone the repository
 ```bash
@@ -126,7 +126,7 @@ pip install -r requirements.txt
 ```
 ---
 
-## 📓 Running the Notebooks
+## Running the Notebooks
 
 Run the four Sprint notebooks **in order** from the project root. Each notebook saves artifacts that the next one depends on:
 
@@ -139,7 +139,7 @@ Run the four Sprint notebooks **in order** from the project root. Each notebook 
 
 ---
 
-## 🌐 Running the Streamlit App
+## Running the Streamlit App
 
 From the **project root** (not from inside `app/`):
 
@@ -153,7 +153,7 @@ The app will open at `http://localhost:8501`. Use the sidebar to enter booking d
 
 ---
 
-## 🧪 Project Dependencies
+## Project Dependencies
 
 Key libraries used:
 
@@ -172,7 +172,7 @@ Full list in `requirements.txt`.
 
 ---
 
-## 💡 Key Findings
+## Key Findings
 
 - **Lead time** is the strongest single predictor of cancellation — bookings made far in advance cancel much more frequently
 - Customers with a **history of previous cancellations** (`cancel_ratio`) are far more likely to cancel again
@@ -183,7 +183,7 @@ Full list in `requirements.txt`.
 
 ---
 
-## 📁 Custom Transformer Classes
+## Custom Transformer Classes
 
 All custom sklearn-compatible transformers live in `src/feature_engineering.py`:
 
@@ -198,7 +198,7 @@ These are imported in `app.py` before `joblib.load()` so that `full_pipeline.pkl
 
 ---
 
-## 👤 Author
+## Author
 
 **Muvva Lakshmi Narayana Reddy**
 - [LinkedIn](https://www.linkedin.com/in/<muvva-lakshmi-narayana-reddy-5933a3299>)
@@ -206,12 +206,6 @@ These are imported in `app.py` before `joblib.load()` so that `full_pipeline.pkl
 
 ---
 
-## 📄 License
-
-This project is licensed under the MIT License. See `LICENSE` for details.
-
----
-
-## 🙏 Acknowledgements
+## Acknowledgements
 
 - Dataset: [Hotel Booking Demand — Kaggle](https://www.kaggle.com/datasets/jessemostipak/hotel-booking-demand)
