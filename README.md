@@ -16,7 +16,7 @@ This project builds a production-ready ML system that takes a raw booking record
 
 | Metric | Score |
 |--------|-------|
-| **Accuracy** | ~86% |
+| **Accuracy** | ~80% |
 | **F1 Score** | ~85% |
 | **ROC-AUC** | ~0.92 |
 | **Model** | Stacking Classifier (RF + DT + tuned RF via Optuna) |
